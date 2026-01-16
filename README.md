@@ -1,3 +1,19 @@
+# 这是什么？
+
+这是2025赛季的用于仿真测试的px4源码，版本号为1.15.4。创建这一仓库的原因是，px4版本更新很快，各种模块和依赖在一年后的新版本中很有可能无法使用，于是留存这一曾经顺利运行过的仿真源码。针对仿真的主要修改集中在 [gz 子仓库](https://github.com/kongpincheng1/gz-custom)。
+
+# 你该怎么做
+
+## 克隆仓库
+仅需一行命令即可
+```bash
+git clone --recurse-submodules https://github.com/kongpincheng1/PX4-1.15.4-2025_Season.git
+```
+助顺利
+
+---
+
+## 以下是官方说明
 # PX4 Drone Autopilot
 
 [![Releases](https://img.shields.io/github/release/PX4/PX4-Autopilot.svg)](https://github.com/PX4/PX4-Autopilot/releases) [![DOI](https://zenodo.org/badge/22634/PX4/PX4-Autopilot.svg)](https://zenodo.org/badge/latestdoi/22634/PX4/PX4-Autopilot)
