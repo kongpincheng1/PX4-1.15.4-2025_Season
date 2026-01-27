@@ -60,6 +60,11 @@ make px4_sitl gz_x500_depth
 ```bash
 MicroXRCEAgent udp4 -p 8888
 ```
+## 7.安装gz_bridge
+```bash
+sudo apt remove ros-humble-ros-gz
+sudo apt install ros-humble-ros-gzharmonic
+```
 
 助顺利
 
