@@ -63,7 +63,7 @@ MicroXRCEAgent udp4 -p 8888
 ## 7.安装gz_bridge
 ```bash
 sudo apt remove ros-humble-ros-gz
-sudo apt install ros-humble-ros-gzharmonic
+sudo apt install ros-humble-ros-gzgarden
 ```
 
 助顺利
