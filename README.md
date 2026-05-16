@@ -2,6 +2,14 @@
 
 这是2025赛季的用于仿真测试的px4源码，版本号为1.15.4。创建这一仓库的原因是，px4版本更新很快，各种模块和依赖在一年后的新版本中很有可能无法使用，于是留存这一曾经顺利运行过的仿真源码。针对仿真的主要修改集中在 [gz 子仓库](https://github.com/kongpincheng1/gz-custom)。
 
+## firmware 子模块
+
+本仓库还包含 `firmware` 子模块，提供以下飞控的预编译固件：
+- **雷迅 CUAV X7+**：`firmware/cuav_x7pro_default.px4`
+- **Holybro Pixhawk 6X**：`firmware/px4_fmu-v6x_default.px4`
+
+这些固件均为 PX4 v1.15.4 版本，可直接用于实机烧录。
+
 # 你该怎么做
 你可以在px4官网找到完整安装[教程](https://docs.px4.io/main/en/dev_setup/dev_env_linux_ubuntu)
 
