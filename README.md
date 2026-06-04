@@ -13,6 +13,8 @@
 # 你该怎么做
 你可以在px4官网找到完整安装[教程](https://docs.px4.io/main/en/dev_setup/dev_env_linux_ubuntu)
 
+如果你想要复刻此仿真环境，具体操作步骤在[工作空间仓库](https://github.com/kongpincheng1/25Season_Fly_ws_archive)
+
 ## 1.克隆仓库
 ```bash
 git clone --recurse-submodules https://github.com/kongpincheng1/PX4-1.15.4-2025_Season.git
